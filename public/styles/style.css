@@ -1,0 +1,95 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+
+}
+
+.searchCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.searchBox{
+    width: 25rem;
+    height: 2rem;
+    padding: .3rem;
+}
+
+h1{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.weath2nd{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box1{
+    img{
+        height: 5rem;
+    }
+}
+
+.box2{
+    p{
+        margin-bottom: 0%;
+    }
+    .tday{
+        font-size: 1.6rem;
+    }
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    p{
+        font-size: 12rem;
+        padding-top: 10px;
+    }
+    img{
+        height: 12rem;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: #12343b;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    flex-basis: 200px;
+    padding: 100px;
+    flex: 1;
+    max-width: 370px;
+    border-radius: 10px;
+
+    .icon{
+        height: 3rem;
+    }
+    .temp{
+        height: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .bold{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .value{
+        font-size: 1.2rem;
+        margin-left: 4rem;
+    }
+}
+
+
+
+
+
+
